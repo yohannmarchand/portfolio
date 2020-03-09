@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <title>Yohann Marchand : Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/scss/style.scss">
   <link rel="stylesheet" href="https://use.typekit.net/urf8uoc.css">
 </head>
+
 <body>
-  <div class="row">
-    <aside class="p-4 col-3">
-      <h1>Portfolio</h1>
-      <h2>Yohann Marchand</h2>
-      <nav class="d-flex flex-column">
-        <a href="">Réalisations </a>
-        <a href="">A propos de moi </a>
-        <a href="">Contact </a>
-      </nav>
-    </aside>
-    <div class="row col-9" id="realisation">
-      <div class="col-3 position-relative p-0">
-        <div class="position-absolute d-flex justify-content-center align-items-center"> CCS DAY</div>
-        <img src="assets/img/siteCssDay.jpg" alt="">
-      </div>
-      <div class="col-3 position-relative p-0">
-        <div class="position-absolute d-flex justify-content-center align-items-center"> STUD'ANGOULEME</div>
-        <img src="assets/img/sitePtut.jpg" alt="">
-      </div>
-      <div class="col-3 position-relative p-0">
-        <div class="position-absolute d-flex justify-content-center align-items-center">MMI EVENT</div>
-        <img src="assets/img/siteMMiEvent.jpg" alt="">
-      </div>
-      <div class="col-3 position-relative p-0">
-        <div class="position-absolute d-flex justify-content-center align-items-center">CIDIL</div>
-        <img src="assets/img/siteEcoMerca.jpg" alt="">
-      </div>
+  <header class="navbar">
+    <h1 class="navbar__name">Yohann Marchand</h1>
+
+    <nav>
+      <a href="" class="navbar__link">Présentation</a>
+      <a href="" class="navbar__link">Réalisations</a>
+      <a href="" class="navbar__link">Contact</a>
+    </nav>
+  </header>
+
+  <section class="homepage">
+    <div>
+      <h1 class="homepage__title">Portfolio</h1>
+      <h2 class="homepage__job">Web developpeur</h2>
     </div>
-  </div>
+    <div class="homepage__head"></div>
+  </section>
 </body>
+
 </html>

@@ -1,0 +1,15 @@
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+html {
+  box-sizing: border-box;
+  margin: 0px;
+  background: linear-gradient(
+    60deg,
+    rgba(35, 35, 35, 1) 0%,
+    rgba(30, 30, 30, 1) 25%,
+    rgba(25, 25, 25, 1) 75%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  min-height: 100%;
+}
