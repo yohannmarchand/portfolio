@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0px 10%;
 }
 
 .presentation__title {
@@ -20,4 +19,24 @@
   border: 3px aliceblue solid;
   padding: 2%;
   font-size: larger;
+}
+
+.presentation__cv {
+  border: aliceblue 2px solid;
+  padding: 5px;
+}
+
+.fa-github {
+  margin-right: 20px;
+}
+
+.presentation__toolbox {
+  width: 75%;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation__toolbox > * {
 }
