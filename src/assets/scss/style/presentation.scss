@@ -1,0 +1,23 @@
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 10%;
+}
+
+.presentation__title {
+  margin-right: auto;
+  font-size: 300%;
+  padding: 5px 0px;
+  border-bottom: 2px solid #e50914;
+}
+
+.presentation__text {
+  width: 75%;
+  margin-bottom: auto;
+  margin-top: 5%;
+  border: 3px aliceblue solid;
+  padding: 2%;
+  font-size: larger;
+}

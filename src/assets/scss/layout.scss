@@ -12,4 +12,19 @@ html {
     rgba(20, 20, 20, 1) 100%
   );
   min-height: 100%;
+
+  color: aliceblue;
+}
+
+section {
+  min-height: 100vh;
+}
+
+strong {
+  color: #e50914;
+  font-size: large;
+}
+
+a {
+  color: aliceblue;
 }

@@ -1,5 +1,5 @@
 .navbar {
-  padding: 15px;
+  padding: 25px;
   color: white;
   display: flex;
 }
@@ -15,4 +15,22 @@ nav {
 .navbar__link {
   margin: 0px 20px;
   color: white;
+  padding-bottom: 5px;
+}
+
+.navbar__link:hover {
+  animation: link 0.5s;
+  font-size: 110%;
+  border-bottom: 2px solid #e50914;
+}
+
+@keyframes link {
+  from {
+    font-size: 100%;
+  }
+
+  to {
+    font-size: 110%;
+    border-bottom: 2px solid #e50914;
+  }
 }
