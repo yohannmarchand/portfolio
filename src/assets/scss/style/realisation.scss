@@ -1,0 +1,77 @@
+.realisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.realisation__mainTittle {
+  margin-left: auto;
+  font-size: 300%;
+  padding: 5px 0px;
+  border-bottom: 2px solid #e50914;
+}
+
+.realisation__container {
+  width: 90%;
+  margin-top: 5%;
+  padding: 2%;
+  font-size: larger;
+  display: flex;
+  height: 95%;
+}
+.realisation__container > div {
+  margin: 15px;
+  border: 3px aliceblue solid;
+}
+
+.realisation__title {
+  margin-bottom: 15px;
+  border-bottom: #e50914 2px solid;
+  padding: 3px;
+  margin: 25px 15px;
+}
+
+div div .realisation__img {
+  height: 35%;
+}
+
+.realisation__resume {
+  margin: 0px 15px;
+}
+
+div:first-child > .realisation__img {
+  background: url(./../img/dacharyprod.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+div:nth-child(2) > .realisation__img {
+  background: url(./../img/studangouleme.png);
+  background-position: center;
+  background-size: cover;
+}
+div:last-child > .realisation__img {
+  background: url(./../img/mmievent.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.realisation__containerbtn {
+  height: 10%;
+  display: flex;
+  align-items: end;
+}
+.realisation__btn {
+  background-color: transparent;
+  color: aliceblue;
+  margin: 0px 15px;
+  padding: 5px;
+  cursor: pointer;
+  border: aliceblue 2px solid;
+}
+
+.close {
+  display: none;
+}

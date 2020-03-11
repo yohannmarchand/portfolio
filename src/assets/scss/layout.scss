@@ -33,3 +33,17 @@ a {
 .fa {
   font-size: 50px;
 }
+
+.show {
+  display: block !important;
+  animation: show 0.5s;
+}
+
+@keyframes show {
+  to {
+    width: 100%;
+  }
+  from {
+    width: 33%;
+  }
+}

@@ -38,5 +38,7 @@
   align-items: center;
 }
 
-.presentation__toolbox > * {
+.presentation__toolbox > * :hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
 }
