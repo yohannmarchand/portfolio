@@ -1,5 +1,6 @@
 * {
   font-family: "Nanum Gothic", sans-serif;
+  font-size: large;
 }
 html {
   box-sizing: border-box;
@@ -14,11 +15,13 @@ html {
   min-height: 100%;
   scroll-behavior: smooth;
   color: aliceblue;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 section {
-  min-height: 100vh;
   padding: 0px 10%;
+  margin: 35px 0px;
 }
 
 strong {
@@ -46,4 +49,14 @@ a {
   from {
     width: 33%;
   }
+}
+
+button{
+    background-color: transparent;
+    color: aliceblue;
+    margin: 10px 15px;
+    padding: 5px;
+    cursor: pointer;
+    border: aliceblue 2px solid;
+
 }

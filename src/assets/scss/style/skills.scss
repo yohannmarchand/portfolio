@@ -1,0 +1,39 @@
+.skills{
+
+    padding: 25px 0px;
+    background-color: aliceblue;
+    margin-bottom:35px ;
+
+
+    div{
+        display: flex;
+        margin-top: 15px;
+        animation: skillsSlider 20s ease-in-out infinite;
+    }
+
+    i{
+        font-size: 800%;
+        margin: 0px 100px;
+    }
+}
+
+.skills__title{
+
+    color: Black;
+    font-size: xx-large;
+    padding-left: 10px;
+    text-decoration: underline #e50914 2px;
+}
+
+@keyframes skillsSlider {
+    0%{
+       transform: translateX(-100%); 
+    }
+    50%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+

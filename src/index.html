@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="assets/scss/style.scss">
   <link rel="stylesheet" href="https://use.typekit.net/urf8uoc.css">
 </head>
@@ -22,10 +23,10 @@
       <a href="#contact" class="navbar__link">Contact</a>
     </nav>
   </header>
-
+  
   <section class="homepage">
     <div id="scenetitle">
-      <div data-depth="0.4">
+      <div data-depth="0.7">
         <h1 class="homepage__title">Portfolio</h1>
         <h2 class="homepage__job">Web developpeur</h2>
         <div class="homepage__down">
@@ -41,45 +42,31 @@
     <div>
       <div>
         <div id="scenepresentation">
-          <p class="presentation__text" data-depth="0.2">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente asperiores perferendis vitae maxime vero
-            tenetur ex doloribus, voluptas inventore delectus, fugit maiores ut reiciendis quas voluptatem. Dolorem
-            perferendis tempora et. <strong>Lorem ipsum</strong> lore dolor, sit amet consectetur adipisicing elit.
-            Totam
-            nemo soluta, est
-            sunt
-            odit at deleniti vitae ipsam dicta magni in quasi ab nostrum fuga inventore corrupti voluptates perspiciatis
-            tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente asperiores perferendis vitae
-            maxime
-            vero
-            tenetur ex doloribus, voluptas inventore delectus, <strong>Lorem ipsum</strong> reiciendis quas voluptatem.
-            Dolorem
-            perferendis tempora et. lore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam <strong>Lorem
-              ipsum</strong>, est
-            sunt
-            odit at delen<strong>Lorem ipsum</strong>ipsam dicta magni in quasi ab nostrum fuga inventore corrupti
-            voluptates perspiciatis
-            tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente asperiores perferendis vitae
-            maxime
-            vero
-            tenetur ex doloribus, <strong>Lorem ipsum</strong> delectus, fugit maiores ut reiciendis quas voluptatem.
-            Dolorem
-            perferendis tempora et. lore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam nemo soluta,
-            est
-            sunt
-            odit at deleniti vitae ipsam dicta magni in quasi ab nostrum fuga inventore corrupti voluptates perspiciatis
-            tenetur.
+          <p class="presentation__text" data-depth="0.4">
+            Je m’appelle Matthieu Truche, je suis un étudiant de 19 ans actuellement en DUT Métiers du Multimédia et de l’Internet spécialisé dans le domaine du développement web à l’IUT d’Angoulême. Cette formation m’a permis d’éveiller ma passion pour ce domaine dans lequel j’ai pu acquérir des compétences techniques et expériences à travers la réalisation de nombreux projets pédagogiques ou personnels. En outre, la formation MMI m’a permis de développer mon côté polyvalent à travers l’apprentissage de plusieurs domaines, tels que la communication, l’audiovisuel et le développement web. Je suis quelqu’un de travailleur, sérieux, organisé et motivé. Ces qualités font grandir mon ambition de devenir développeur web Full-Stack.
 
           </p>
-        </div>
-        <div class="presentation__toolbox">
-          <a href="https://github.com/yohannmarchand"><i class="fa fa-github"></i></a>
-          <a href="" class="presentation__cv">Mon CV</a>
         </div>
       </div>
     </div>
 
   </section>
+
+  <div class="skills">
+    <h5 class="skills__title">Mes Compétences</h5>
+    <div>
+      <i class="devicon-css3-plain colored"></i>
+      <i class="devicon-bootstrap-plain colored"></i>
+      <i class="devicon-php-plain colored"></i>
+      <i class="devicon-git-plain colored"></i>
+      <i class="devicon-html5-plain colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-sass-original colored"></i>
+      <i class="devicon-symfony-original colored"></i>
+      <i class="devicon-wordpress-plain colored"></i>
+      <i class="devicon-mysql-plain colored"></i>
+    </div>
+  </div>
 
   <section class="realisation" id="realisation">
     <h2 class="realisation__mainTittle">Mes réalisations</h2>
@@ -87,13 +74,46 @@
     <div class="realisation__container">
       <div>
         <div class="realisation__img"></div>
-        <h5 class="realisation__title">Stud'angouleme</h5>
-        <p class="realisation__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam
-          nobis
-          impedit voluptatibus. Enim
-          perspiciatis, facere odit quibusdam obcaecati beatae inventore voluptatem vitae, impedit molestias fugiat
-          sed
-          in et deleniti!</p>
+        <h5 class="realisation__title">Dachary Production</h5>
+        <div class="realisation__content">
+          <p class="realisation__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam
+            nobis
+            impedit voluptatibus. Enim
+            perspiciatis, facere odit quibusdam obcaecati beatae inventore voluptatem vitae, impedit molestias fugiat
+            sed
+            in et deleniti!</p>
+            <div class="realisation__techno">
+              <h6>Compétences utilisée</h6>
+              <ul>
+                <li>- PHP avec un arborescence</li>
+                <li>- SQL</li>
+              </ul>
+            </div>
+        </div>
+        <div class="realisation__containerbtn">
+          <button class="realisation__btn open">En savoir plus</button>
+          <button class="realisation__btn close">Fermer</button>
+          <a href="http://amarlier.mmi-angouleme.fr/ptut/" class="realisation__btn realisation__btn--link">Vers le site web</a>
+        </div>
+      </div>
+      <div>
+        <div class="realisation__img"></div>
+        <h5 class="realisation__title">Stud'angouleme </h5>
+        <div class="realisation__content">
+          <p class="realisation__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam
+            nobis
+            impedit voluptatibus. Enim
+            perspiciatis, facere odit quibusdam obcaecati beatae inventore voluptatem vitae, impedit molestias fugiat
+            sed
+            in et deleniti!</p>
+            <div class="realisation__techno">
+              <h6>Compétences utilisée</h6>
+              <ul>
+                <li>- Wordpress</li>
+                <li>- PHP avec un arborescence MVC</li>
+              </ul>
+            </div>
+        </div>
         <div class="realisation__containerbtn">
           <button class="realisation__btn open">En savoir plus</button>
           <button class="realisation__btn close">Fermer</button>
@@ -101,37 +121,62 @@
       </div>
       <div>
         <div class="realisation__img"></div>
-        <h5 class="realisation__title">Stud'angouleme</h5>
-        <p class="realisation__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam
-          nobis
-          impedit voluptatibus. Enim
-          perspiciatis, facere odit quibusdam obcaecati beatae inventore voluptatem vitae, impedit molestias fugiat
-          sed
-          in et deleniti!</p>
-        <div class="realisation__containerbtn">
-          <button class="realisation__btn open">En savoir plus</button>
-          <button class="realisation__btn close">Fermer</button>
+        <h5 class="realisation__title">Mastermind</h5>
+        <div class="realisation__content">
+          <p class="realisation__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam
+            nobis
+            impedit voluptatibus. Enim
+            perspiciatis, facere odit quibusdam obcaecati beatae inventore voluptatem vitae, impedit molestias fugiat
+            sed
+            in et deleniti!</p>
+            <div class="realisation__techno">
+              <h6>Compétences utilisée</h6>
+              <ul>
+                <li>- Javascript</li>
+                <li>- HTML 5 & CSS 3</li>
+              </ul>
+            </div>
         </div>
-      </div>
-      <div>
-        <div class="realisation__img"></div>
-        <h5 class="realisation__title">Stud'angouleme</h5>
-        <p class="realisation__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam
-          nobis
-          impedit voluptatibus. Enim
-          perspiciatis, facere odit quibusdam obcaecati beatae inventore voluptatem vitae, impedit molestias fugiat
-          sed
-          in et deleniti!</p>
         <div class="realisation__containerbtn">
           <button class="realisation__btn open">En savoir plus</button>
           <button class="realisation__btn close">Fermer</button>
         </div>
       </div>
     </div>
+    <a href="https://github.com/yohannmarchand"><i class="fa fa-github"></i></a>
   </section>
+
+  <section class="contact">
+    <h2 class="contact__tittle">Contact</h2>
+    <form action="">
+      <div>
+        <div class="contact__container">
+          <label for="" class="contact__label">Votre nom</label>
+          <input type="text" class="contact__name">
+        </div>
+        <div class="contact__container">
+          <label for="" class="contact__label">Votre email</label>
+          <input type="email"  class=" contact__email">
+        </div>
+      </div>
+      <div class="contact__container">
+        <label for="" class="contact__label--center">Votre message</label>
+        <textarea  id="" cols="30" rows="10" class="contact__writing"></textarea>
+      </div>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <div>
+
+    </div>
+    <span>Yohann Marchand © 2020 - Tous droits réservés</span>
+    <a href="">Mentions légales</a>
+  </footer>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="js/app.js"></script>
+<!-- ------------------ <script src="js/app.js"></script> ------------------ -->
 
 </html>

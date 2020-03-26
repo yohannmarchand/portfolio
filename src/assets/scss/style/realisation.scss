@@ -20,6 +20,7 @@
   font-size: larger;
   display: flex;
   height: 95%;
+  position: relative;
 }
 .realisation__container > div {
   margin: 15px;
@@ -35,6 +36,7 @@
 
 div div .realisation__img {
   height: 35%;
+  transition: height 0.25s;
 }
 
 .realisation__resume {
@@ -53,25 +55,48 @@ div:nth-child(2) > .realisation__img {
   background-size: cover;
 }
 div:last-child > .realisation__img {
-  background: url(./../img/mmievent.jpg);
+  background: url(./../img/mastermind.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .realisation__containerbtn {
   height: 10%;
-  display: flex;
-  align-items: end;
-}
-.realisation__btn {
-  background-color: transparent;
-  color: aliceblue;
-  margin: 0px 15px;
-  padding: 5px;
-  cursor: pointer;
-  border: aliceblue 2px solid;
+  margin-bottom: auto;
+  position: absolute;
+  bottom: 25px;
 }
 
 .close {
   display: none;
+}
+.link{
+  display: none;
+}
+
+.realisation__content{
+
+  display: flex;
+}
+
+.realisation__techno{
+
+  display: none;
+  width: 100%;
+
+  h6{
+    margin: 15px;
+
+  }
+
+  li{
+
+    padding: 15px;
+    margin-left: 7px;
+  }
+}
+
+.realisation__btn--link{
+
+  border-bottom: #e50914 solid 2px;
 }
