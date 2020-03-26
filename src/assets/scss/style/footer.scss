@@ -1,0 +1,27 @@
+.footer{
+
+    background: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+
+    a{
+        color: black;
+    }
+}
+
+.footer__social{
+
+    display: flex;
+    align-items: center;
+
+    >a{
+        margin-right: 20px;
+    }
+
+    a:last-child{
+        font-size: xx-large;
+    }
+}
