@@ -8,6 +8,14 @@
   font-size: 10rem;
   border-bottom: 5px solid #e50914;
   margin-bottom: 15px;
+
+  @include screen_mid{
+    font-size: 7rem;
+  }
+
+  @include screen_small{
+    font-size: 4rem;
+  }
 }
 
 .homepage__job {

@@ -17,13 +17,18 @@ html {
   overflow-x: hidden;
   width: 100%;
   @include screen_mid{
-    font-size: 12px;
+    font-size: 18px;
   }
+
 }
 
 section {
   padding: 0px 10%;
   margin: 35px 0px;
+
+  @include screen_mid{
+    padding: 0px 15px;
+  }
 }
 
 strong {
@@ -37,6 +42,10 @@ a {
 
 .fa {
   font-size: 50px;
+
+  @include screen_small{
+    font-size: 20px;
+  }
 }
 
 .show {

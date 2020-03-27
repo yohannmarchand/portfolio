@@ -9,3 +9,15 @@
       @content;
     }
   }
+
+  @mixin screen_Xsmall {
+    @media (max-width: 800px) {
+      @content;
+    }
+  }
+
+  @mixin screen_small {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }

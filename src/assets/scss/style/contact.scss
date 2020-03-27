@@ -25,6 +25,10 @@
     display: flex;
     margin-bottom: 10%;
 
+    @include screen_mid{
+        flex-direction: column;
+      }
+
    }
   }
 
@@ -36,6 +40,21 @@
     padding-bottom: 5px;
     color: aliceblue;
     width: 400px;
+
+    @include screen_mid{
+        width: 500px;
+      }
+
+      @include screen_small{
+        width: 300px;
+    }
+
+    @include screen_Xsmall{
+        width: 400px;
+      }
+
+
+
     
   }
 
@@ -51,6 +70,11 @@
     flex-direction: column;
     margin-left: 35px;
 
+    @include screen_mid{
+        margin-top: 50px;
+        margin-left: 0px;
+      }
+
 }
 
 textarea{
@@ -60,9 +84,26 @@ textarea{
     resize: none;
     width: 800px;
     padding: 10px;
+
+    @include screen_mid{
+        width: 500px;
+      }
+      @include screen_Xsmall{
+        width: 400px;
+      }
+      
+
+      @include screen_small{
+        width: 300px;
+    }
+    
 }
 
 .contact__label--center{
     text-align: center;
     margin: 35px;
+
+    @include screen_mid{
+        margin-top: 0px;
+      }
 }

@@ -18,6 +18,9 @@
   border: 3px aliceblue solid;
   padding: 2%;
   font-size: larger;
+  @include screen_mid{
+    width: 95%;
+  }
 }
 
 .presentation__cv {

@@ -18,9 +18,19 @@
         margin: 25px 100px;
         transition: font-size 0.5s ease-in-out;
 
-        @include screen_mid{
+        @include screen_large{
             font-size: 500%;
             margin: 12px 50px;
+          }
+
+          @include screen_mid{
+            font-size: 400%;
+            margin: 7px 25px;
+          }
+
+          @include screen_mid{
+            font-size: 250%;
+            margin: 5px 12px;
           }
 
     }
