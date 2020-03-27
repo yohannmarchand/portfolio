@@ -7,15 +7,30 @@
 
     div{
         display: flex;
-        margin-top: 15px;
-        animation: skillsSlider 20s ease-in-out infinite;
+        margin: 7.5px;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
+
 
     i{
         font-size: 600%;
-        margin: 0px 100px;
+        margin: 25px 100px;
+        transition: font-size 0.5s ease-in-out;
+
+        @include screen_mid{
+            font-size: 500%;
+            margin: 12px 50px;
+          }
+
+    }
+
+    i:hover{
+        font-size: 650%;
     }
 }
+
+
 
 .skills__title{
 
@@ -23,17 +38,5 @@
     font-size: xx-large;
     padding-left: 10px;
     text-decoration: underline #e50914 2px;
-}
-
-@keyframes skillsSlider {
-    0%{
-       transform: translateX(-100%); 
-    }
-    50%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(-70%);
-    }
 }
 

@@ -15,6 +15,10 @@ html {
   scroll-behavior: smooth;
   color: aliceblue;
   overflow-x: hidden;
+  width: 100%;
+  @include screen_mid{
+    font-size: 12px;
+  }
 }
 
 section {

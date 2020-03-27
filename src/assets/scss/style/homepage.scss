@@ -22,6 +22,10 @@
   background: url(./../img/homepage_picture.jpg);
   background-position: center;
   background-size: cover;
+
+  @include screen_large{
+    display: none;
+  }
 }
 
 .homepage__down {
