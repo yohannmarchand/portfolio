@@ -1,5 +1,7 @@
 
-
+/* -------------------------------------------------------------------------- */
+/*                                Realisations                                */
+/* -------------------------------------------------------------------------- */
 
 $(".open").click(function () {
 
@@ -33,3 +35,40 @@ $('.close').click(function () {
 
 
 })
+
+/* -------------------------------------------------------------------------- */
+/*                                    Font                                    */
+/* -------------------------------------------------------------------------- */
+
+
+$(".accessibility__font").click(function () {
+  
+  $('body').toggleClass('accessibility__font--active');
+})
+
+var fontSize = 16 ;
+
+$('.accessibility__minus').click(function () {
+  
+  if (fontSize > 12) {
+    fontSize = fontSize - 1;
+    $('html').css('font-size', fontSize+ 'px');
+    //console.log(fontSize , $('html').css('font-size'));
+  }
+})
+
+$('.accessibility__default').click(function () {
+  
+    fontSize = 16;
+    $('html').css('font-size', fontSize+ 'px');
+})
+
+$('.accessibility__more').click(function () {
+  
+  if (fontSize < 21) {
+    fontSize = fontSize + 1;
+    $('html').css('font-size', fontSize+ 'px');
+    //console.log(fontSize , $('html').css('font-size'));
+  }
+})
+
