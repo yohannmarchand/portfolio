@@ -1,0 +1,32 @@
+.legalNotice{
+
+    display: flex;
+    
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.legalNotice >div {
+
+    width: 80%;
+    border: 2px aliceblue solid;
+    padding: 15px;
+}
+
+.legalNotice__mainTitle{
+
+    margin :15px;
+}
+
+.legalNotice__tittle{
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.legalNotice__link{
+
+    margin:15px;
+    border: 2px solid aliceblue;
+    padding: 5px;
+}
