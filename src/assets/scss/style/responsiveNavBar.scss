@@ -1,0 +1,75 @@
+.responsiveNavBar{
+
+    position: absolute;
+    top: 0px;
+    height: 0px;
+    width: 100vw;
+    background-color: #313131;
+    z-index: 3;
+    text-align: left;
+    overflow-y: hidden;
+    opacity: 0.9;
+    border-radius: 10px;
+    transition: height 1s ease-in;
+
+    div *{
+        margin-top: 25px;
+        
+    }
+
+
+}
+
+.responsiveNavBar__tittle{
+    text-align: center;
+
+}
+
+.responsiveNavBar div:nth-child(1){
+
+    display: flex;
+    flex-direction: column;
+
+    a{
+        margin-bottom: 10%;
+        font-size: 1.75rem;
+    }
+}
+
+.responsiveNavBar div:nth-child(2){
+
+    margin-top: auto;
+    margin-bottom: 25px;
+}
+
+.fa-times{
+
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.responsiveNavBar__container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fa-bars{
+display: none;
+
+    @include screen_mid{
+        margin-left: auto;
+        display: block;
+      }
+
+}
+
+
+
+

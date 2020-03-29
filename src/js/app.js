@@ -46,7 +46,7 @@ $(".accessibility__font").click(function () {
   $('body').toggleClass('accessibility__font--active');
 })
 
-var fontSize = 16 ;
+var fontSize = 18 ;
 
 $('.accessibility__minus').click(function () {
   
@@ -59,7 +59,7 @@ $('.accessibility__minus').click(function () {
 
 $('.accessibility__default').click(function () {
   
-    fontSize = 16;
+    fontSize = 18;
     $('html').css('font-size', fontSize+ 'px');
 })
 
@@ -70,5 +70,24 @@ $('.accessibility__more').click(function () {
     $('html').css('font-size', fontSize+ 'px');
     //console.log(fontSize , $('html').css('font-size'));
   }
+})
+
+/* -------------------------------------------------------------------------- */
+/*                                 Burger Menu                                */
+/* -------------------------------------------------------------------------- */
+
+$('.fa-bars').click(function (){
+
+  $('.responsiveNavBar').css('height','10%');
+})
+
+$('.fa-times').click(function (){
+
+  $('.responsiveNavBar').css('height','0px');
+})
+
+$('.responsiveNavBar__link').click(function (){
+
+  $('.responsiveNavBar').css('height','0px');
 })
 

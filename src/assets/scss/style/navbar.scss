@@ -2,14 +2,26 @@
   padding: 25px;
   color: white;
   display: flex;
+
 }
 
 .navbar__name {
   font-size: larger;
 }
 
-nav {
+.navbar nav {
   margin-left: auto;
+
+  @include screen_mid{
+    display: none;
+  }
+}
+
+.navbar__accessibility{
+
+  @include screen_mid{
+    display: none;
+  }
 }
 
 .navbar__link {
