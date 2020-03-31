@@ -15,7 +15,7 @@ $(".open").click(function () {
   $('.link').show();
 
   $('.realisation__techno').css("display" ,'block');
-  $(".realisation__img").css("height" , "60%");
+  $(".realisation__img").css("height" , "500px");
 
 
 })
@@ -30,7 +30,7 @@ $('.close').click(function () {
   $('.link').hide();
 
   $('.realisation__techno').css("display" ,'none');
-  $(".realisation__img").css("height" , "35%");
+  $(".realisation__img").css("height" , "200px");
 
 
 
