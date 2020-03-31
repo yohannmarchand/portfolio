@@ -3,6 +3,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  i{
+    @include screen_mid{
+      font-size: 70px;
+    }
+  }
 }
 
 .realisation__mainTittle {
