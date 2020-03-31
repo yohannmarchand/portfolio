@@ -7,12 +7,24 @@
     "contact__title" : "Contact",
     "homepage__title" : "Portfolio",
     "homepage__job" : "Développeur web",
-    "presentation__text" : " Je suis Yohann Marchand, actuellement en 2eme année de Dut Metiers du multimédia et de l'internet spécialisé dans le développement web à l'IUT d'Angoulême. La formation a développée mes compétences de les domaine du développement web, de la commuciation ainsi que de l'audiovisuel mais également m'a permis de travaillé sur de nombreux projets individuelles mais aussi en groupe. De plus je suis curieux, serieux et je m'instéresse aux nouvelles technologie en générales. J'ai comme loisir de faire du skateboard ce qui eveille ma capacité de persévérance ",
+    "presentation__text" : " Je suis Yohann Marchand, actuellement en 2ème année de DUT Métiers du multimédia et de l'Internet spécialisé dans le développement web à l'IUT d'Angoulême. La formation a développé mes compétences dans les domaines du développement web, de la communication ainsi que de l'audiovisuel. Ça m’a également permis de travailler sur de nombreux projets. De plus je suis curieux, sérieux et je m'intéresse aux nouvelles technologies en générale. J'ai comme loisirs de faire du skateboard ce qui éveille ma capacité de persévérance.",
     "skills__title" : "Mes compétences",
     "DacharyProd__title" : "Dachary Production",
     "DacharyProd__text" :"Dachary Prodauction est une micro-entreprise qui réalise des visuels pour des associations. Elle nous à contacter dans le cadre d'un projet tutoré, afin de réaliser un site vitrine ainsi d'un backoffice afin de l'administrer",
     "StudAngouleme__title" : "Stud'Angouleme",
     "StudAngouleme__text" : "Stud'Angouleme est un projet fictif ,qui a été réalisé dans le cadre d'un projet tutoré, Ce projet est decomposable en deux partie un partie où nous devions réaliser un site wordpress  et dans une deuxième partie, nous devions réaliser une application de questionnaire de satisfaciton composé d'un backoffice",
     "MasterMind__title" : "MasterMind",
-    "MasterMind__text" : "Dans le cadre d'un projet pédagoquique, j'ai du réaliser un mastermind en Javascript. Ce projet m'as permis de concevoir tout les partie du site, le design, l'expérience utilisateur et  l'algorithme qui permet de rendre le jeux jouable ainsi d'agreacle à regarder"
+    "MasterMind__text" : "Dans le cadre d'un projet pédagoquique, j'ai du réaliser un mastermind en Javascript. Ce projet m'as permis de concevoir tout les partie du site, le design, l'expérience utilisateur et  l'algorithme qui permet de rendre le jeux jouable ainsi d'agreacle à regarder",
+    "realisation__btnOpen" : "En savoir plus",
+    "realisation__btnClose" : "Fermer",
+    "realisation__btnLink" : "Vers le site",
+    "realisation__skills" : "Compétences utilisée" ,
+    "realisation__skills--php" : "PHP avec un arborescence MVC",
+    "contact__name": "Votre nom",
+    "contact__email": "Votre email",
+    "contact__message": "Votre message",
+    "contact__submit": "Envoyer",
+    "footer__copyright" :" Yohann Marchand © 2020 - Tous droits réservés",
+    "footer__legalNotive" : "Mentions légales"
+
 }
