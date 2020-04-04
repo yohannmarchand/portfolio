@@ -3,6 +3,11 @@
 /*                                Realisations                                */
 /* -------------------------------------------------------------------------- */
 
+import * as data from './../json/lang/index.json';
+
+console.log(data);
+
+
 $(".open").click(function () {
 
 
@@ -90,4 +95,92 @@ $('.responsiveNavBar__link').click(function (){
 
   $('.responsiveNavBar').css('height','0px');
 })
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 Multilangue                                */
+/* -------------------------------------------------------------------------- */
+
+
+
+var lang;
+
+const changeLang = (lang, file) => {
+  
+  console.log(lang , file);
+  localStorage.setItem('lang' , lang);
+  
+  if( file == '/' || file == '/index.html'){
+    file = "index";
+  
+    if (lang == "en") {
+      var curentData = data[0].index;
+      var nextLang = 'en';
+    } else {
+      var curentData = data[1].index;
+      var nextLang = 'fr';
+    }
+  
+  
+  
+    $.each(curentData, function( index, value ) {
+      $("."+index).html(value);
+    });
+  
+  
+  }
+  else{
+    file = "mention";
+
+    if (lang == "en") {
+      var curentData = data[0].mention;
+    } else {
+      var curentData = data[1].mention;
+    }
+  }
+
+  $.each(curentData, function( index, value ) {
+    $("."+index).html(value);
+  });
+
+  };
+
+
+
+if (window.localStorage.length == 0) {
+  lang= 'fr';
+  localStorage.setItem('lang' , lang);
+
+}
+else{
+  lang = window.localStorage.lang
+}
+
+console.log(lang)
+
+changeLang(lang ,window.location.pathname );
+
+
+
+
+ $(".lang").click( () => {
+    var $this = $(".lang");
+    lang = $this.val();
+
+    var fileName = window.location.pathname;
+    
+    if( lang == 'en'){
+      $(".lang").html('Français');
+      $(".lang").val('fr');
+    }
+    else{
+      $(".lang").html('English');
+      $(".lang").val('en');
+    }
+
+    changeLang(lang , fileName);
+     
+  
+
+ })
 

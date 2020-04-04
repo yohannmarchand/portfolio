@@ -1,6 +1,8 @@
 .accessibility{
 
-    margin: 4px 25px;
+    margin: 0px 25px;
+    display: flex;
+    align-items: flex-start;
   
     span{
       margin: 0px 5px;
@@ -18,4 +20,10 @@
     
     font-family: 'OpenDyslexic-Regular';
 
+  }
+
+  .lang{
+
+    margin-top: 0px;
+    margin-bottom: 0px;
   }

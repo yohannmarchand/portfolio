@@ -15,7 +15,6 @@
 </head>
 
 <body>
-  <?php echo 'Hello'; ?>
   <header class="navbar">
     <h1 class="navbar__name">Yohann Marchand</h1>
 
@@ -23,12 +22,13 @@
       <span class="accessibility__minus">A-</span>
       <span class="accessibility__default">A</span>
       <span class="accessibility__more">A+</span>
-      <span class="accessibility__font">Dyslexie</span>
+      <span class="accessibility__font ">Dyslexie</span>
+      <span class="lang" value="en"> English </span>
     </div>
     <nav>
-      <a href="#presentation" class="navbar__link">Présentation</a>
-      <a href="#realisation" class="navbar__link">Réalisations</a>
-      <a href="#contact" class="navbar__link">Contact</a>
+      <a href="#presentation" class="navbar__link presentation__json">Présentation</a>
+      <a href="#realisation" class="navbar__link realisation__json">Réalisations</a>
+      <a href="#contact" class="navbar__link contact__json">Contact</a>
     </nav>
 
     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -38,9 +38,9 @@
     <div class="responsiveNavBar__container">
 
       <div>
-        <a href="#presentation" class="responsiveNavBar__link">Présentation</a>
-        <a href="#realisation" class="responsiveNavBar__link ">Réalisations</a>
-        <a href="#contact" class="responsiveNavBar__link ">Contact</a>
+        <a href="#presentation" class="navbar__link presentation__json">Présentation</a>
+        <a href="#realisation" class="navbar__link realisation__json">Réalisations</a>
+        <a href="#contact" class="navbar__link contact__json">Contact</a>
       </div>
 
       <div class="responsiveNavBar__accessibility accessibility">
@@ -48,6 +48,7 @@
         <span class="accessibility__default">A</span>
         <span class="accessibility__more">A+</span>
         <span class="accessibility__font">Dylexie</span>
+        <span class="lang" value="en"> English </span>
       </div>
       <i class="fa fa-times" aria-hidden="true"></i>
     </div>
@@ -66,8 +67,8 @@
     <div class="homepage__head"></div>
   </section>
 
-  <section id="presentation" class="presentation">
-    <h2 class="presentation__title">Présentation</h2>
+  <section id="presentation" class="presentation ">
+    <h2 class="presentation__title presentation__json">Présentation</h2>
     <div>
       <div>
         <div id="scenepresentation">
@@ -98,14 +99,14 @@
   </div>
 
   <section class="realisation" id="realisation">
-    <h2 class="realisation__mainTittle">Mes réalisations</h2>
+    <h2 class="realisation__mainTittle  realisation__json">Mes réalisations</h2>
 
     <div class="realisation__container">
       <div>
         <div class="realisation__img"></div>
         <h5 class="realisation__title">Dachary Production</h5>
         <div class="realisation__content">
-          <p class="realisation__resume">Dachary Prodauction est une micro-entreprise qui réalise des visuels pour des associations. Elle nous à contacter dans le cadre d'un projet tutoré, afin de réaliser un site vitrine ainsi d'un backoffice afin de l'administrer</p>
+          <p class="realisation__resume DacharyProd__text">Dachary Prodauction est une micro-entreprise qui réalise des visuels pour des associations. Elle nous à contacter dans le cadre d'un projet tutoré, afin de réaliser un site vitrine ainsi d'un backoffice afin de l'administrer</p>
             <div class="realisation__techno">
               <h6>Compétences utilisée</h6>
               <ul>
@@ -115,16 +116,16 @@
             </div>
         </div>
         <div class="realisation__containerbtn">
-          <button class="realisation__btn open">En savoir plus</button>
-          <button class="realisation__btn close">Fermer</button>
-          <a href="http://amarlier.mmi-angouleme.fr/ptut/" class=" realisation__btn--link">Vers le site web</a>
+          <button class="realisation__btn open realisation__btnOpen">En savoir plus</button>
+          <button class="realisation__btn close realisation__btnClose">Fermer</button>
+          <a href="http://amarlier.mmi-angouleme.fr/ptut/" class=" realisation__btn--link realisation__btnLink" target="_blank">Vers le site web</a>
         </div>
       </div>
       <div>
         <div class="realisation__img"></div>
         <h5 class="realisation__title">Stud'angouleme </h5>
         <div class="realisation__content">
-          <p class="realisation__resume">Stud'Angouleme est un projet fictif ,qui a été réalisé dans le cadre d'un projet tutoré, Ce projet est decomposable en deux partie un partie où nous devions réaliser un site wordpress  et dans une deuxième partie, nous devions réaliser une application de questionnaire de satisfaciton composé d'un backoffice" 
+          <p class="realisation__resume StudAngouleme__text">Stud'Angouleme est un projet fictif ,qui a été réalisé dans le cadre d'un projet tutoré, Ce projet est decomposable en deux partie un partie où nous devions réaliser un site wordpress  et dans une deuxième partie, nous devions réaliser une application de questionnaire de satisfaciton composé d'un backoffice" 
 
           </p>
             <div class="realisation__techno">
@@ -136,15 +137,15 @@
             </div>
         </div>
         <div class="realisation__containerbtn">
-          <button class="realisation__btn open">En savoir plus</button>
-          <button class="realisation__btn close">Fermer</button>
+          <button class="realisation__btn open realisation__btnOpen">En savoir plus</button>
+          <button class="realisation__btn close realisation__btnClose">Fermer</button>
         </div>
       </div>
       <div>
         <div class="realisation__img"></div>
         <h5 class="realisation__title">Mastermind</h5>
         <div class="realisation__content">
-          <p class="realisation__resume">"Dans le cadre d'un projet pédagoquique, j'ai du réaliser un mastermind en Javascript. Ce projet m'as permis de concevoir tout les partie du site, le design, l'expérience utilisateur et  l'algorithme qui permet de rendre le jeux jouable ainsi d'agreacle à regarder"</p>
+          <p class="realisation__resume MasterMind__text">"Dans le cadre d'un projet pédagoquique, j'ai du réaliser un mastermind en Javascript. Ce projet m'as permis de concevoir tout les partie du site, le design, l'expérience utilisateur et  l'algorithme qui permet de rendre le jeux jouable ainsi d'agreacle à regarder"</p>
             <div class="realisation__techno">
               <h6>Compétences utilisée</h6>
               <ul>
@@ -154,43 +155,44 @@
             </div>
         </div>
         <div class="realisation__containerbtn">
-          <button class="realisation__btn open">En savoir plus</button>
-          <button class="realisation__btn close">Fermer</button>
+          <button class="realisation__btn open realisation__btnOpen">En savoir plus</button>
+          <a href="http://ymarchand.mmi-angouleme.fr/Mastermind" class=" realisation__btn--link realisation__btnLink" target="_blank">Vers le site web</a>
+          <button class="realisation__btn close realisation__btnClose" >Fermer</button>
         </div>
       </div>
     </div>
     <a href="https://github.com/yohannmarchand"><i class="fa fa-github"></i></a>
   </section>
 
-  <section class="contact" id="contact">
-    <h2 class="contact__title">Contact</h2>
+  <section class="contact " id="contact">
+    <h2 class="contact__title contact__json">Contact</h2>
     <form action="">
       <div>
         <div class="contact__container">
-          <label for="" class="contact__label">Votre nom</label>
+          <label for="" class="contact__label contact__name">Votre nom</label>
           <input type="text" class="contact__name">
         </div>
         <div class="contact__container">
-          <label for="" class="contact__label">Votre email</label>
+          <label for="" class="contact__label contact__email">Votre email</label>
           <input type="email"  class=" contact__email">
         </div>
       </div>
       <div class="contact__container">
-        <label for="" class="contact__label--center">Votre message</label>
+        <label for="" class="contact__label--center contact__message">Votre message</label>
         <textarea  id="" cols="30" rows="10" class="contact__writing"></textarea>
       </div>
-      <button type="submit">Envoyer</button>
+      <button type="submit" class="contact__submit">Envoyer</button>
     </form>
   </section>
 
   <footer class="footer">
     <div class="footer__social">
       <a href="https://www.linkedin.com/in/yohann-marchand-5b8522175/"><i class="fa fa-linkedin"></i></a>
-      <a href="https://github.com/yohannmarchand"><i class="fa fa-github"></i></a>
+      <a href="https://github.com/yohannmarchand" target="_blank"><i class="fa fa-github"></i></a>
       <a href="">CV</a>
     </div>
-    <span>Yohann Marchand © 2020 - Tous droits réservés</span>
-    <a href="mentions.html">Mentions légales</a>
+    <span class="footer__copyright">Yohann Marchand © 2020 - Tous droits réservés</span>
+    <a href="mentions.html" class="footer__legalNotive">Mentions légales</a>
   </footer>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
