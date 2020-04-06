@@ -11,7 +11,7 @@ console.log(data);
 $(".open").click(function () {
 
 
-  container = $(this).parent().parent();
+  var container = $(this).parent().parent();
   container.parent().children().css('display', 'none');
   container.addClass('show');
 
@@ -27,7 +27,7 @@ $(".open").click(function () {
 
 $('.close').click(function () {
 
-  container = $(this).parent().parent();
+  var container = $(this).parent().parent();
   container.parent().children().css('display', 'block');
   container.removeClass('show');
   $('.close').hide();
