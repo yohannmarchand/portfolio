@@ -45,15 +45,13 @@
         width: 500px;
       }
 
-      @include screen_small{
-        width: 300px;
-    }
-
     @include screen_Xsmall{
         width: 400px;
       }
 
-
+      @include screen_small{
+        width: 300px;
+    }
 
     
   }
